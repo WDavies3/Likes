@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- --------site contents--------- -->
+    <div class="site-content">
+        <!-- ----------title bar---------- -->
+        <div class="title-bar">
+            <h2>Network</h2>
+        </div>
+        <!-- ----------feed heading------------- -->
+        <h2 class="feed-title">Your Feed</h2>
+
+        <!-- --------------main contents------------- -->
+        <div class="main-content">
+            <!-- ---------left column-------------- -->
+            <div class="left-column">
+                <!-- ---------profile-box--------------- -->
+                <div class="profile-box">
+                    <img src="./images/user-circle.png" alt="profile photo">
+                    <a href="#">Add an avatar</a>
+                    <h2>James Doe</h2>
+                </div>
+            </div>
+            <!-- ---------right column------------- -->
+            <div class="right-column">
+                <!-- -----------post box------------ -->
+                <div class="user-post">
+                    <!-- ---------post heading----------- -->
+                    <div class="post-heading">
+                        <h2>Neil M</h2>
+                        <!-- -------section for likes--------- -->
+                        <div class="like-section">
+                            <p id="user-0-likes">9 like(s)</p>
+                            <button class="like-btn" onclick="increaseLikes(0)">Like</button>
+                        </div>
+                    </div>
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+                <!-- -----------post box------------ -->
+                <div class="user-post">
+                    <!-- ---------post heading----------- -->
+                    <div class="post-heading">
+                        <h2>Nichole K</h2>
+                        <!-- -------section for likes--------- -->
+                        <div class="like-section">
+                            <p id="user-1-likes">12 like(s)</p>
+                            <button class="like-btn" onclick="increaseLikes(1)">Like</button>
+                        </div>
+                    </div>
+                    <p>Just finished my <a href="#">next comic,</a> check it out.</p>
+                </div>
+
+                <!-- -----------post box------------ -->
+                <div class="user-post">
+                    <!-- ---------post heading----------- -->
+                    <div class="post-heading">
+                        <h2>Jim R</h2>
+                        <!-- -------section for likes--------- -->
+                        <div class="like-section">
+                            <p id="user-2-likes">9 like(s)</p>
+                            <button class="like-btn" onclick="increaseLikes(2)">Like</button>
+                        </div>
+                    </div>
+                    <p>I can't stop listening to the <a href="#">new album.</a></p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
